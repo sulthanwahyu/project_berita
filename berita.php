@@ -1,7 +1,6 @@
 <?php
 
 include 'koneksi.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +10,7 @@ include 'koneksi.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="berita.css">
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/cdbc444101.js" crossorigin="anonymous"></script>
@@ -50,45 +49,30 @@ include 'koneksi.php';
         <span class="first">Berita</span>
         <span class="two">Terkini</span>
     </div>
-    
-    <div class="jdl">
-        <h1>HOT NEWS</h1>
+
+    <div class="konten">
+    <div class="content">
+        <h3>Olahraga</h3>
+        <img src="maguire.jpg" alt="">
+        <p>Harry Maguire dicadangkan adalah kelegaan <br> terbesar para pendukung Manchester United <br> Walaupun tampak seperti olok-olak, eks <br> pemain Man United Jaap Stam menyarankan <br> Maguire untuk mengambil hikmahnya </p> 
     </div>
 
-    <div class="slider-container">
-
-<div class="slider-content">
-
-    <div class="slider-single">
-        <img class="slider-single-image" src="lesti.jpeg" alt="1" />
-        <h1 class="slider-single-title">Rizky Billar dilaporkan ke polisi oleh istrinya, Lesti Kejora, atas tuduhan kekerasan dalam rumah tangga (KDRT). Lesti Kejora mengaku kekerasan tersebut terjadi setelah adanya perselingkuhan </h1>
-        <a class="slider-single-likes" href="javascript:void(0);">
-        </a>
+    <div class="content2">
+        <h3>Kuliner</h3>
+        <img src="lemon.jpg" alt="">
+        <p>Tak hanya kaya nutrisi, khususnya vitamin C, lemon <br> juga memiliki sejumlah manfaat untuk makanan. <br> Salah satunya untuk mengempukkan daging.</p> 
     </div>
-    <div class="slider-single">
-        <img class="slider-single-image" src="gangster.jpg" alt="1" />
-        <h1 class="slider-single-title">Untuk informasi, beberapa hari belakangan ini warga Kota Depok digegerkan dengan beberapa video aksi tawuran antar gangster.Dari informasi yang dihimpun, tawuran tersebut terjadi di wilayah Bogor, namun berbatasan dengan Kota Depok.Warga sekitar, Arek, mengatakan bahwa gangster ini sempat bersitegang dengan warga di lokasi.</h1>
-        <a class="slider-single-likes" href="javascript:void(0);">
-        </a>
+    <div class="content3">
+        <h3>Teknologi</h3>
+        <img src="teknologi.jpg" alt="">
+        <p>Teknologi adalah keseluruhan sarana untuk menyediakan <br>barang-barang yang diperlukan bagi kelangsungan dan<br> kenyamanan hidup Penggunaan teknologi oleh manusia <br> dimulai dengan pengubahan <br> sumber daya alam menjadi alat-alat sederhana.</p> 
     </div>
-    <div class="slider-single">
-        <img class="slider-single-image" src="evos.jpg" alt="1" />
-        <h1 class="slider-single-title">sungguh hasil yang tidak memuaskan untuk evos legends di mpl s10 karna sekarang sudah di ambang tidak lolos ke playoff 
-            #EVOSFAMSSAD </h1>
-        <a class="slider-single-likes" href="javascript:void(0);">
-        </a>
+    <div class="content4">
+        <h3>Esport</h3>
+        <img src="tny.jpg" alt="">
+        <p>Ajang pertandingan untuk milenial Esport dikota Depok <br> diadakan oleh SAGA ESPORT telah mengumumkan <br> pemenang secara resmi para pemenangnya <br> dan dalam pertandingan tersebut yang mendapatkan <br> juara 1 yaitu TNY Group dan mendapatkan hadiah sebesar <br>Rp 3.000.000</p> 
     </div>
-
-    <div class="slider-single">
-        <img class="slider-single-image" src="pildun.jpg" alt="1" />
-        <h1 class="slider-single-title"> Qatar akan menutup perbatasan darat, udara, dan laut pada 1 November-22 Desember 2022, kecuali bagi penonton Piala Dunia 2022 yang memiliki Hayya Card (Kartu Hayya).Pemegang Hayya Card akan diperbolehkan masuk negara ini mulai 1 November 2022 sampai 23 Desember 2022, dan mereka dapat tinggal di negara ini sampai 23 Januari 2023</h1>
-        <a class="slider-single-likes" href="javascript:void(0);">
-        </a>
     </div>
-</div>
-</div>
-<!-- partial -->
-<script  src="./script.js"></script>
 
     <div class="footer">
         <h4>Berita Terkini</h4>
@@ -143,7 +127,6 @@ include 'koneksi.php';
 
     </div>
 
-
    
 
     <script>
@@ -157,5 +140,8 @@ include 'koneksi.php';
 
     </script>
 
+    
+    
+    
 </body>
 </html>
